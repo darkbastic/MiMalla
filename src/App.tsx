@@ -13,7 +13,7 @@ function App() {
       <main style={{ flexGrow: 1, padding: "1rem" }}>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/crear-malla" element={<MallaPage />} />
+          <Route path="crear-malla" element={<MallaPage />} />
         </Routes>
       </main>
       <Footer />
