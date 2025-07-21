@@ -12,7 +12,7 @@ function App() {
       <Navbar />
       <main style={{ flexGrow: 1, padding: "1rem" }}>
         <Routes>
-          <Route path="/MiMalla" element={<Home />} />
+          <Route index element={<Home />} />
           <Route path="crear-malla" element={<MallaPage />} />
         </Routes>
       </main>
