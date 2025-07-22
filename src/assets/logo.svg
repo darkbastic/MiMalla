@@ -1,0 +1,29 @@
+<svg
+  width="100"
+  height="100"
+  viewBox="0 0 64 64"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <!-- Libro abierto -->
+  <path
+    d="M8 12H28L32 24L28 36H8V12Z"
+    fill="#4A90E2"
+    stroke="#2C3E50"
+    stroke-width="2"
+  />
+  <path
+    d="M36 12H56L52 24L56 36H36V12Z"
+    fill="#50E3C2"
+    stroke="#2C3E50"
+    stroke-width="2"
+  />
+  <!-- Check -->
+  <path
+    d="M20 42L28 50L44 34"
+    stroke="#27AE60"
+    stroke-width="4"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+</svg>
