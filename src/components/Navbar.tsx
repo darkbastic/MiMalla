@@ -59,12 +59,10 @@ const Navbar = () => {
         sx={{ backgroundColor: "white", color: "black" }}
       >
         <Toolbar sx={{ display: "flex", alignItems: "center" }}>
-          {/* Título a la izquierda */}
           <Typography variant="h6" component="div" sx={{ display: "block" }}>
-            miMalla
+            MiMalla
           </Typography>
 
-          {/* Botones de navegación en sm+ */}
           <Box
             sx={{
               display: { xs: "none", sm: "flex" },
@@ -80,7 +78,6 @@ const Navbar = () => {
             ))}
           </Box>
 
-          {/* Menú hamburguesa solo xs, a la derecha */}
           <IconButton
             color="inherit"
             edge="end"
